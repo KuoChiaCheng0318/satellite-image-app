@@ -18,7 +18,7 @@ function Row({title, lon, lat}) {
     // year loop
     for (var i = 2014; i<= 2021 ; i++){
         // month loop
-        for (var j = 1; j<= 12 ; j+=6){ 
+        for (var j = 1; j<= 12 ; j+=12){ 
             timelist.push(i.toString()+"-"+j.toString()+"-01");
         }
     }

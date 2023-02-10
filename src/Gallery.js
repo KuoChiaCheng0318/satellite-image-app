@@ -8,7 +8,7 @@ const API_KEY= "eHsJMoLbnJRXRWlQppSOsaFqt2hy0f04BCR2qRr1";
 var placelist = [
     { title: 'New York', lon: '-73.93', lat: '40.73' },
     { title: 'Los Angeles', lon: '-118.23', lat: '34.05'  },
-    { title: 'Chicago', lon: '-87.69', lat: '41.85'  },
+    // { title: 'Chicago', lon: '-87.69', lat: '41.85'  },
     { title: 'Taipei', lon: '121.50', lat: '25.05'  },
 ];
 
