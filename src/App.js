@@ -5,6 +5,7 @@ import Homepage from './Homepage';
 import Gallery from "./Gallery";
 import Header from "./Header";
 import About from "./About";
+import Detail from "./Detail";
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          {/* <Route path="/detail/:id">
+          <Route path="/detail">
             <Detail />
-          </Route> */}
+          </Route>
         </Switch>
       </Router>
     </div>

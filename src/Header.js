@@ -12,17 +12,17 @@ function Header() {
         backgroundImage: `url("starnight.webp")`,
     }}
     >
-        <div className='header__logo'>
-            <Link to="/">
-                <h1>NASA</h1>
+        <div >
+            <Link to="/"  className='header__link'>
+                <h1 className='header__logo'>NASA</h1>
             </Link>
         </div>
         <div className='header__galleryabout'>
-            <Link to="/gallery">
-                <div className='header__link'>Gallery</div>
+            <Link to="/gallery" className='header__link'>
+                <div className='header__linktext'>Gallery</div>
             </Link>
-            <Link to="/about">
-                <div className='header__link'>About</div>
+            <Link to="/about" className='header__link'>
+                <div className='header__linktext'>About</div>
             </Link>
         </div>  
     </header>

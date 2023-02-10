@@ -6,6 +6,13 @@
     top: 0;
     z-index: 100;
     justify-content: space-between;
+    height: 80px;
+}
+
+.header__logo{
+    color: red;
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 .header__galleryabout{
@@ -13,7 +20,13 @@
 }
 
 .header__link{
+    text-decoration: none;
+}
+
+.header__linktext{
     padding-right: 15px;
     padding-left: 15px;
     font-size: 25px;
+    color: red;
+
 }

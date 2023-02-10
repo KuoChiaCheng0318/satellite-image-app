@@ -9,6 +9,7 @@ var placelist = [
     { title: 'New York', lon: '-73.93', lat: '40.73' },
     { title: 'Los Angeles', lon: '-118.23', lat: '34.05'  },
     // { title: 'Chicago', lon: '-87.69', lat: '41.85'  },
+    { title: 'Taipei', lon: '121.50', lat: '25.05'  },
 ];
 
 function Gallery() {
@@ -32,7 +33,7 @@ function Gallery() {
         <div className='gallery'>
             {/* <h1>This is my Nasa app gallery page.</h1> */}
             <h3>Default satellite image: New York City</h3>
-            <h4>(Los Angeles: lat=34.05, lon=-118.23; Chicago: lat=41.85, lon=-87.69)</h4>
+            <h4>(Los Angeles: lat=34.05, lon=-118.23; Chicago: lat=41.85, lon=-87.69, Taipei: lat=25.05, lon=121.50)</h4>
             <form>
                 <div className='gallery__input'>
                     <div className='gallery__inputtext1'>Enter latitude (North and South):</div>
