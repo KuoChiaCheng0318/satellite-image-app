@@ -1,0 +1,4 @@
+.row__images{
+    display: flex;
+    overflow-x: scroll;
+}

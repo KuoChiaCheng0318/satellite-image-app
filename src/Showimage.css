@@ -1,0 +1,15 @@
+/* .showimage{
+    display: flex;
+} */
+
+.showimage__img{
+    width: 100px;
+    margin: 5px;
+}
+
+.showimage__imgLarge{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

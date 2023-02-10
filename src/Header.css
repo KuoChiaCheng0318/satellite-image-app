@@ -1,0 +1,19 @@
+.header{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    position: sticky;   
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header__galleryabout{
+    display: flex;
+}
+
+.header__link{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+}
