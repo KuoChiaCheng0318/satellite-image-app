@@ -24,22 +24,29 @@ function Detail() {
   return (
     <div className='detail'>
         {/* <h1>This is detail page</h1> */}
-        <div >
+        <div className='detail__page'>
             <img
-                // className={`showimage__img ${isLarge && "showimage__imgLarge"}`} 
                 className='detail__image'
                 key={places.id}
                 src={places.url}
                 alt="" />
+
+                <div>
+                    <p className='detail__data'>Date the image was captured:  {places.date}</p>
+                    <p className='detail__data'>Spacecraft that captured the image: Landsat 8 (LC08)</p>
+                    <br /><br />
+                    <p className='detail__data'>
+                        Original image url: <a href={places.url}>{places.url}</a>
+                    </p>
+                    <p className='detail__data'>Image ID: {places.id}</p>
+                </div>
         </div>
-        <div>
+        {/* <div>
             <p>id: {places.id}</p>
             <p>date: {places.date}</p>
-            <p>resource.dataset: {places.resource.dataset}</p>
-            <p>resource.planet: {places.resource.planet}</p>
             <p>service_version: {places.service_version}</p>
             <p>url: {places.url}</p>
-        </div>
+        </div> */}
     </div>
   )
 }
