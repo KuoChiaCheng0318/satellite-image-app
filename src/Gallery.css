@@ -5,6 +5,11 @@
 
 .gallery > h3{
     margin-top: 50px;
+    margin-left: 1vw;
+}
+
+.gallery > h4{
+    margin-left: 1vw;
 }
 
 .gallery__inputtext1{
@@ -20,4 +25,18 @@
     padding: 5px;
     font-size: 30px;
     cursor: pointer;
+    background-color: darkgrey;
+    color: black ;
+    border-radius: 5px ;
+
 }
+
+@media (max-width: 768px) {
+    .gallery__inputtext1{
+        max-height: 100px;
+        max-width: 100px;
+        min-height: 50px;
+        min-width: 60px;
+        overflow:hidden;
+    }
+  }

@@ -18,13 +18,13 @@ function Row({title, lon, lat}) {
     // year loop
     for (var i = 2014; i<= 2015 ; i++){
         // month loop
-        for (var j = 1; j<= 2 ; j++){ 
+        for (var j = 1; j<= 12 ; j++){ 
             timelist.push(i.toString()+"-"+j.toString()+"-01");
         }
     }
 
     return (
-        <div>
+        <div className='row'>
             <h1>{title}</h1>
             <div className='row__images'>
                 {timelist.map(time =>

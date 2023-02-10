@@ -8,7 +8,7 @@ const API_KEY= "eHsJMoLbnJRXRWlQppSOsaFqt2hy0f04BCR2qRr1";
 var placelist = [
     { title: 'New York', lon: '-73.93', lat: '40.73' },
     { title: 'Los Angeles', lon: '-118.23', lat: '34.05'  },
-    // { title: 'Chicago', lon: '-87.69', lat: '41.85'  },
+    { title: 'Chicago', lon: '-87.69', lat: '41.85'  },
     { title: 'Taipei', lon: '121.50', lat: '25.05'  },
 ];
 
@@ -36,19 +36,19 @@ function Gallery() {
             <h4>(Los Angeles: lat=34.05, lon=-118.23; Chicago: lat=41.85, lon=-87.69, Taipei: lat=25.05, lon=121.50)</h4>
             <form>
                 <div className='gallery__input'>
-                    <div className='gallery__inputtext1'>Enter latitude (North and South):</div>
+                    <div className='gallery__inputtext1'>Latitude (North and South):</div>
                     <input className='gallery__inputtext2' 
                     onChange={e => setLatitude(e.target.value)}
                     value={latitude} 
                     placeholder="40.73" type="text" />
 
-                    <div className='gallery__inputtext1'>, Enter longitude (East and West):</div>
+                    <div className='gallery__inputtext1'>, Longitude (East and West):</div>
                     <input className='gallery__inputtext2' 
                     onChange={e => setLongitude(e.target.value)}
                     value={longitude} 
                     placeholder="-73.93" type="text" />
 
-                    <div className='gallery__inputtext1'>, Enter date (between May 2013 ~ Nov 2021):</div>
+                    <div className='gallery__inputtext1'>, Date (between May 2013 ~ Nov 2021):</div>
                     <input className='gallery__inputtext2' 
                     onChange={e => setDate(e.target.value)}
                     value={date} 
