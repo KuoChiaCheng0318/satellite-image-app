@@ -49,7 +49,7 @@ function Gallery() {
                     placeholder="-73.93" type="text" />
 
                     <div className='gallery__inputtext1'>, Date (between May 2013 ~ Nov 2021):</div>
-                    <input className='gallery__inputtext2' 
+                    <input className='gallery__inputtext3' 
                     onChange={e => setDate(e.target.value)}
                     value={date} 
                     placeholder="2013-05-01" type="text" />

@@ -1,6 +1,7 @@
 .gallery__input{
     display: flex;
     margin-top: 10px;
+    align-items: center;
 }
 
 .gallery > h3{
@@ -13,6 +14,14 @@
 }
 
 .gallery__inputtext1{
+    padding: 10px;
+}
+
+.gallery__inputtext2{
+    padding: 10px;
+}
+
+.gallery__inputtext3{
     padding: 10px;
 }
 
@@ -38,5 +47,17 @@
         min-height: 50px;
         min-width: 60px;
         overflow:hidden;
+    }
+    .gallery__inputtext2{
+        max-height: 100px;
+        max-width: 100px;
+        min-width: 40px;
+        padding: 5px;
+    }
+    .gallery__inputtext3{
+        max-height: 100px;
+        max-width: 100px;
+        min-width: 70px;
+        padding: 5px;
     }
   }
