@@ -25,11 +25,13 @@ function Detail() {
     <div className='detail'>
         {/* <h1>This is detail page</h1> */}
         <div className='detail__page'>
-            <img
+            <a href={places.url}>
+                <img
                 className='detail__image'
                 key={places.id}
                 src={places.url}
                 alt="" />
+            </a>
 
                 <div>
                     <p className='detail__data'>Date the image was captured:  {places.date}</p>
