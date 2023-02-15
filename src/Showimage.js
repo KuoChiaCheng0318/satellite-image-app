@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import axios from './axios';
 import "./Showimage.css"
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Showimage({fetchUrl, isLarge}) {
-    const { state } = useLocation();
-    console.log(state)
+    // const { state } = useLocation();
+    // console.log(state)
 
     console.log(fetchUrl);
     const [places, setPlaces] = useState([]);
